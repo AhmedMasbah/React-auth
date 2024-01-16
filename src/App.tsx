@@ -20,7 +20,6 @@ function App() {
         const user = response.data;
         setUser(user);
       } catch (error) {
-        console.error("Error fetching user data:", error);
         setUser(null);
       }
     })();

@@ -7,7 +7,7 @@ const Home  = ({ user }: { user: any }) => {
   }
 
   return (
-    <div className="container">
+    <div className="container m">
       <h2>{message}</h2>
     </div>
   );
